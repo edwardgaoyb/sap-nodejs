@@ -14,6 +14,6 @@ file.load2DMatrix(filename, (error, data) => {
         process.exit(1);
     }
     const result = spa.project(data);
-    Object.entries(result.projectedValues).forEach(([k, v]) => console.log(`Projected value of ${k}: ${v}`));
-    console.log(`Projected total: ${result.projectedTotal}`);
+    Object.entries(result.projectedValues).forEach(([k, v]) => console.log(`Projected value of ${k}: ${+v.toFixed(2)}`));
+    console.log(`Projected total: ${+result.projectedTotal.toFixed(2)}`);
 });
