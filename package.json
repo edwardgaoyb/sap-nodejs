@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/edwardgaoyb/spa-node/issues"
   },
-  "homepage": "https://github.com/edwardgaoyb/spa-node#readme"
+  "homepage": "https://github.com/edwardgaoyb/spa-node#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
 }
