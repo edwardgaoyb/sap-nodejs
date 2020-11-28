@@ -1,0 +1,18 @@
+{
+  "name": "sap-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardgaoyb/spa-node.git"
+  },
+  "author": "Edward Gao",
+  "bugs": {
+    "url": "https://github.com/edwardgaoyb/spa-node/issues"
+  },
+  "homepage": "https://github.com/edwardgaoyb/spa-node#readme"
+}
